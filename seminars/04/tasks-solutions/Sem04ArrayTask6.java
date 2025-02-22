@@ -76,7 +76,7 @@ public class Sem04ArrayTask6 {
         for (int i = 0; i < str.length(); ++i) {
             char c = str.charAt(i);
             if (i == 0 && (c == '-' || c == '+')) {
-                // Знак '+' или '-' в начале числа - OK, положительное или отричательное число
+                // Знак '+' или '-' в начале числа - OK, положительное или отрицательное число
                 continue;
             }
             if (!Character.isDigit(c)) {
